@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$((0xfee$DECMAL))"
+printf '%x\n' $DECIMAL
